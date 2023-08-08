@@ -30,4 +30,25 @@ body {
   p {
     font-size: 1.2rem;
   }
+
   
+
+
+
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-left: 10%;
+    background-color: #45fd42;
+    color: #060606;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #45fd40;
+    transform: scale(1.05);
+  }
+    

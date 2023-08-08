@@ -1,7 +1,12 @@
-.body { 
-    background-color: #000000;
-  }
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #090909;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
 .button-container {
     text-align: center;
@@ -15,11 +20,35 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
   
   .button:hover {
     background-color: #909191;
+  }
+
+
+
+
+
+
+  
+
+  .button {
+    display: inline-block;
+    padding: 20px 24px;
+    margin-right: ;
+    background-color: #45fd42;
+    color: #060606;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #45fd40;
+    transform: scale(1.05);
   }
